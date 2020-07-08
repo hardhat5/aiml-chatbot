@@ -18,9 +18,10 @@ A chatbot for helping a student decide on an elective course for the upcoming se
 * Start the Flask Server using ‘python app.py’
 * Start the Android emulator
 
-## Sample
-<img src="https://raw.githubusercontent.com/hardhat5/aiml-chatbot/master/Snap1.PNG" width="100" height="200">
-![Snap1](https://raw.githubusercontent.com/hardhat5/aiml-chatbot/master/Snap1.PNG "Snap1")
+## Screenshots
+<img src="https://raw.githubusercontent.com/hardhat5/aiml-chatbot/master/Snap1.PNG" width="200" height="400">
+<img src="https://raw.githubusercontent.com/hardhat5/aiml-chatbot/master/Snap2.PNG" width="200" height="400">
+<img src="https://raw.githubusercontent.com/hardhat5/aiml-chatbot/master/Snap3.PNG" width="200" height="400">
 
 
   
