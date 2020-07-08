@@ -22,3 +22,59 @@ Object Oriented Programming
 Software Engineering
  
  Well, I hope I was helpful. See you next time!
+Hi
+Hello, how do you do
+Pretty good
+Okay, may I assist you in choosing a course for next semester
+Yes please
+Are you interested in any of the following domains?
+        Software Development
+        Big Data
+        Computer Architecture
+        Theoretical Computer Science
+Yes I am
+Okay which one
+Hi
+Hello, how do you do
+Good
+Okay. Not that you asked, but I am doing pretty well myself :) 
+Do you need help in choosing a course?
+Yes I do
+Are you interested in any of the following domains?
+        Software Development
+        Big Data
+        Computer Architecture
+        Theoretical Computer Science
+Hi
+Hello, how do you do
+A
+That's great. Can I help you in choosing an elective for next semester?
+Yes
+Are you interested in any of the following domains?
+        Software Development
+        Big Data
+        Computer Architecture
+        Theoretical Computer Science
+Hi
+Hello, how do you do
+Good
+Okay, may I assist you in choosing a course for next semester
+Yes please
+Are you interested in any of the following domains?
+        Software Development
+        Big Data
+        Computer Architecture
+        Theoretical Computer Science
+No
+Do you have a preferred faculty
+No I do not
+Would you like me to search the web for trending jobs
+Yes please
+Yes 
+These are the courses I found which may be related to Software Development
+
+Database System
+Object Oriented Programming
+Software Engineering
+ 
+ Well, I hope I was helpful. See you next time!
