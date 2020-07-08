@@ -19,8 +19,8 @@ A chatbot for helping a student decide on an elective course for the upcoming se
 * Start the Android emulator
 
 ## Sample
-![Snap1](https://github.com/hardhat5/aiml-chatbot/blob/master/Snap1?raw=true "Snap1")
-![Snap2](https://github.com/hardhat5/aiml-chatbot/blob/master/Snap2?raw=true "Snap2")
-![Snap3](https://github.com/hardhat5/aiml-chatbot/blob/master/Snap3?raw=true "Snap3")
+![Snap1](https://raw.githubusercontent.com/hardhat5/aiml-chatbot/master/Snap1.PNG "Snap1")
+![Snap2](https://raw.githubusercontent.com/hardhat5/aiml-chatbot/master/Snap2.PNG "Snap2")
+![Snap3](https://raw.githubusercontent.com/hardhat5/aiml-chatbot/master/Snap3.PNG "Snap3")
 
   
