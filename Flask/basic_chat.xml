@@ -1,0 +1,134 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+<!-- Greetings -->
+   <category>
+       <pattern>HI</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+
+   <category>
+       <pattern>HI *</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+
+   <category>
+       <pattern>* HI</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+
+   <category>
+       <pattern>* HI *</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+   
+   <category>
+       <pattern>HELLO</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+
+   <category>
+       <pattern>HELLO *</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+
+   <category>
+       <pattern>* HELLO</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+
+   <category>
+       <pattern>* HELLO *</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+   
+   <category>
+       <pattern> * </pattern>
+       <that>HELLO HOW DO YOU DO</that>
+       <template>Do you need help in choosing a course</template>
+   </category>
+   
+   <category>
+       <pattern>YES</pattern>
+       <that>DO YOU NEED HELP IN CHOOSING A COURSE</that>
+       <template>%</template>
+   </category>
+
+   <category>
+       <pattern>YES *</pattern>
+       <that>DO YOU NEED HELP IN CHOOSING A COURSE</that>
+       <template>%</template>
+   </category>
+
+   <category>
+       <pattern>* YES</pattern>
+       <that>DO YOU NEED HELP IN CHOOSING A COURSE</that>
+       <template>%</template>
+   </category>
+
+   <category>
+       <pattern>YES</pattern>
+       <that>%</that>
+       <template>Okay, which one</template>
+   </category>
+
+   <category>
+       <pattern>* YES *</pattern>
+       <that>DO YOU NEED HELP IN CHOOSING A COURSE</that>
+       <template>%</template>
+   </category>
+   
+   <category>
+       <pattern>NO</pattern>
+       <that>DO YOU NEED HELP IN CHOOSING A COURSE</that>
+       <template>Looks like you've got it all figured out!</template>
+   </category>
+
+   <category>
+       <pattern>NO *</pattern>
+       <that>DO YOU NEED HELP IN CHOOSING A COURSE</that>
+       <template>Looks like you've got it all figured out!</template>
+   </category>
+
+   <category>
+       <pattern>* NO</pattern>
+       <that>DO YOU NEED HELP IN CHOOSING A COURSE</that>
+       <template>Looks like you've got it all figured out!</template>
+   </category>
+
+   <category>
+       <pattern>* NO *</pattern>
+       <that>DO YOU NEED HELP IN CHOOSING A COURSE</that>
+       <template>Looks like you've got it all figured out!</template>
+   </category>
+
+   <category>
+       <pattern>YES</pattern>
+       <that>OKAY DO YOU KNOW WHAT DOMAIN YOU ARE INTERESTED IN</that>
+       <template>KKK</template>
+   </category>
+   
+   <category>
+       <pattern>YES</pattern>
+       <that>OKAY DO YOU HAVE A PREFERRED FACULTY</that>
+       <template>Who is it</template>
+   </category>
+
+   <category>
+       <pattern>YES *</pattern>
+       <that>OKAY DO YOU HAVE A PREFERRED FACULTY</that>
+       <template>Who is it</template>
+   </category>
+
+   <category>
+       <pattern>* YES</pattern>
+       <that>OKAY DO YOU HAVE A PREFERRED FACULTY</that>
+       <template>Who is it</template>
+   </category>
+
+   <category>
+       <pattern>* YES *</pattern>
+       <that>OKAY DO YOU HAVE A PREFERRED FACULTY</that>
+       <template>Who is it</template>
+   </category>
+</aiml>

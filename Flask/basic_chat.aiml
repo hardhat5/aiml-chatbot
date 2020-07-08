@@ -1,0 +1,314 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+<!-- Greetings -->
+   <category>
+       <pattern>HI</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+
+   <category>
+       <pattern>HI *</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+
+   <category>
+       <pattern>* HI</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+
+   <category>
+       <pattern>* HI *</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+   
+   <category>
+       <pattern>HELLO</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+
+   <category>
+       <pattern>HELLO *</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+
+   <category>
+       <pattern>* HELLO</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+
+   <category>
+       <pattern>* HELLO *</pattern>
+       <template>Hello, how do you do</template>
+   </category>
+   
+   <category>
+       <pattern> * </pattern>
+       <that>HELLO HOW DO YOU DO</that>
+       <template>GREET</template>
+   </category>
+   
+   <category>
+       <pattern>YES</pattern>
+       <that>GREET</that>
+       <template>DOMAIN</template>
+   </category>
+
+   <category>
+       <pattern>YES *</pattern>
+       <that>GREET</that>
+       <template>DOMAIN</template>
+   </category>
+
+   <category>
+       <pattern>* YES</pattern>
+       <that>GREET</that>
+       <template>DOMAIN</template>
+   </category>
+
+   <category>
+       <pattern>* YES *</pattern>
+       <that>GREET</that>
+       <template>DOMAIN</template>
+   </category>
+
+   <category>
+       <pattern>NO</pattern>
+       <that>GREET</that>
+       <template>
+       <random>
+       <li>Looks like you've got it all figured out!</li>
+       <li>Then please leave me alone!</li>
+       <li>I can't do much else. See you again!</li>
+       </random>
+       </template>
+   </category>
+
+   <category>
+       <pattern>NO *</pattern>
+       <that>GREET</that>
+       <template>
+       <random>
+       <li>Looks like you've got it all figured out!</li>
+       <li>Then please leave me alone!</li>
+       <li>I can't do much else. See you again!</li>
+       </random>
+       </template>
+   </category>
+
+   <category>
+       <pattern>* NO</pattern>
+       <that>GREET</that>
+       <template>
+       <random>
+       <li>Looks like you've got it all figured out!</li>
+       <li>Then please leave me alone!</li>
+       <li>I can't do much else. See you again!</li>
+       </random>
+       </template>
+   </category>
+
+   <category>
+       <pattern>* NO *</pattern>
+       <that>GREET</that>
+       <template>
+       <random>
+       <li>Looks like you've got it all figured out!</li>
+       <li>Then please leave me alone!</li>
+       <li>I can't do much else. See you again!</li>
+       </random>
+       </template>
+   </category>
+
+   <category>
+       <pattern>YES</pattern>
+       <that>DOMAIN</that>
+       <template>Okay which one</template>
+   </category>
+
+   
+   <category>
+       <pattern>YES *</pattern>
+       <that>DOMAIN</that>
+       <template>Okay which one</template>
+   </category>
+ 
+   <category>
+       <pattern>* YES</pattern>
+       <that>DOMAIN</that>
+       <template>Okay which one</template>
+   </category>
+ 
+   <category>
+       <pattern>* YES *</pattern>
+       <that>DOMAIN</that>
+       <template>Okay which one</template>
+   </category>
+
+    <category>
+        <pattern>NO</pattern>
+        <that>DOMAIN</that>
+        <template>Do you have a preferred faculty</template>
+   </category>
+
+       <category>
+        <pattern>NO *</pattern>
+        <that>DOMAIN</that>
+        <template>Do you have a preferred faculty</template>
+   </category>
+
+       <category>
+        <pattern>* NO</pattern>
+        <that>DOMAIN</that>
+        <template>Do you have a preferred faculty</template>
+   </category>
+
+       <category>
+        <pattern>* NO *</pattern>
+        <that>DOMAIN</that>
+        <template>Do you have a preferred faculty</template>
+   </category>
+
+
+   <category>
+        <pattern>*</pattern>
+        <that>OKAY WHICH ONE</that>
+        <template>@ <star/></template>
+   </category>
+
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU HAVE A PREFERRED FACULTY</that>
+        <template>FACULTY</template>
+   </category>
+
+    <category>
+        <pattern>YES *</pattern>
+        <that>DO YOU HAVE A PREFERRED FACULTY</that>
+        <template>FACULTY</template>
+   </category>
+
+
+    <category>
+        <pattern>* YES</pattern>
+        <that>DO YOU HAVE A PREFERRED FACULTY</that>
+        <template>FACULTY</template>
+   </category>
+
+
+    <category>
+        <pattern>* YES *</pattern>
+        <that>DO YOU HAVE A PREFERRED FACULTY</that>
+        <template>FACULTY</template>
+   </category>
+
+    <category>
+        <pattern>NO</pattern>
+        <that>DO YOU HAVE A PREFERRED FACULTY</that>
+        <template>Would you like me to search the web for trending jobs</template>
+   </category>
+
+    <category>
+        <pattern>NO *</pattern>
+        <that>DO YOU HAVE A PREFERRED FACULTY</that>
+        <template>Would you like me to search the web for trending jobs</template>
+   </category>
+
+    <category>
+        <pattern>* NO</pattern>
+        <that>DO YOU HAVE A PREFERRED FACULTY</that>
+        <template>Would you like me to search the web for trending jobs</template>
+   </category>
+
+    <category>
+        <pattern>* NO *</pattern>
+        <that>DO YOU HAVE A PREFERRED FACULTY</that>
+        <template>Would you like me to search the web for trending jobs</template>
+   </category>
+
+    <category>
+        <pattern>NO</pattern>
+        <that>WOULD YOU LIKE ME TO SEARCH THE WEB FOR TRENDING JOBS</that>
+        <template>Sorry I can't help you anymore :/</template>
+   </category>
+
+    <category>
+        <pattern>NO *</pattern>
+        <that>WOULD YOU LIKE ME TO SEARCH THE WEB FOR TRENDING JOBS</that>
+        <template>Sorry I can't help you anymore :/</template>
+   </category>
+
+    <category>
+        <pattern>* NO</pattern>
+        <that>WOULD YOU LIKE ME TO SEARCH THE WEB FOR TRENDING JOBS</that>
+        <template>Sorry I can't help you anymore :/</template>
+   </category>
+
+    <category>
+        <pattern>* NO *</pattern>
+        <that>WOULD YOU LIKE ME TO SEARCH THE WEB FOR TRENDING JOBS</that>
+        <template>Sorry I can't help you anymore :/</template>
+   </category>
+
+   <category>
+        <pattern>YES</pattern>
+        <that>WOULD YOU LIKE ME TO SEARCH THE WEB FOR TRENDING JOBS</that>
+        <template>API CALL</template>
+   </category>
+
+   <category>
+        <pattern>YES *</pattern>
+        <that>WOULD YOU LIKE ME TO SEARCH THE WEB FOR TRENDING JOBS</that>
+        <template>API CALL</template>
+   </category>
+
+   <category>
+        <pattern>* YES</pattern>
+        <that>WOULD YOU LIKE ME TO SEARCH THE WEB FOR TRENDING JOBS</that>
+        <template>API CALL</template>
+   </category>
+
+   <category>
+        <pattern>* YES *</pattern>
+        <that>WOULD YOU LIKE ME TO SEARCH THE WEB FOR TRENDING JOBS</that>
+        <template>API CALL</template>
+   </category>
+
+   <category>
+        <pattern>YES</pattern>
+        <that>API CALL</that>
+        <template>@ Software Development</template>
+   </category>
+
+   <category>
+        <pattern>YES *</pattern>
+        <that>API CALL</that>
+        <template>@ Software Development</template>
+   </category>
+
+   <category>
+        <pattern>* YES</pattern>
+        <that>API CALL</that>
+        <template>@ Software Development</template>
+   </category>
+
+   <category>
+        <pattern>* YES *</pattern>
+        <that>API CALL</that>
+        <template>@ Software Development</template>
+   </category>
+
+   <category>
+        <pattern>NO</pattern>
+        <that>API CALL</that>
+        <template>Okay, you can come back to me once you have figured something out. Have a nice day!</template>
+   </category>
+
+    
+    <category>
+        <pattern>*</pattern>
+        <that>FACULTY</that>
+        <template>$ <star/> </template>
+   </category>
+
+</aiml>

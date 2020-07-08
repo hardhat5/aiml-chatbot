@@ -1,0 +1,24 @@
+Hi
+Hello, how do you do
+Good
+Okay. Not that you asked, but I am doing pretty well myself :) 
+Do you need help in choosing a course?
+Yes
+Are you interested in any of the following domains?
+        Software Development
+        Big Data
+        Computer Architecture
+        Theoretical Computer Science
+No
+Do you have a preferred faculty
+No
+Would you like me to search the web for trending jobs
+Yes
+Yes
+These are the courses I found which may be related to Software Development
+
+Database System
+Object Oriented Programming
+Software Engineering
+ 
+ Well, I hope I was helpful. See you next time!
